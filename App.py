@@ -55,7 +55,7 @@ def KNN_Movie_Recommender(test_point, k):
 st.set_page_config(page_title="Movie Recommender System")
 
 def run():
-    img1 = Image.open(r"C:\Users\mouli padda\OneDrive\Desktop\python\DS\Movie_Recommender_App-master\meta\logo.jpg").resize((250, 250))
+    img1 = Image.open(r"C:\example-folder\Movie_Recommender\meta\logo.jpg").resize((250, 250))
     st.image(img1, use_column_width=False)
     st.title("Movie Recommender System")
     st.markdown("<h4 style='text-align: left; color: #d73b5c;'>* Data is based on IMDB 5000 Movie Dataset</h4>", unsafe_allow_html=True)
