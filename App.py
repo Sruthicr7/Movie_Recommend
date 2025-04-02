@@ -8,8 +8,8 @@ import PIL.Image
 from urllib.request import urlopen
 
 # Define the correct file paths
-TITLES_PATH = r"C:\Users\mouli padda\OneDrive\Desktop\python\DS\Movie_Recommender_App-master\Data\movie_titles.json"
-DATA_PATH = r"C:\Users\mouli padda\OneDrive\Desktop\python\DS\Movie_Recommender_App-master\Data\movie_data.json"
+TITLES_PATH = r"C:\example-folder\Movie_Recommender\Data\movie_titles.json"
+DATA_PATH = r"C:\example-folder\Movie_Recommender\Data\movie_data.json"
 
 # Load data from JSON files
 with open(DATA_PATH, 'r', encoding='utf-8') as f:
